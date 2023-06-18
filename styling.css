@@ -88,6 +88,9 @@
         padding:5px 7px;
         border:1px white solid;
     }
+    .btn:hover{
+        transform: scale(0.9);
+    }
     .showcase h2{
         font-size: 40px;
     }
@@ -107,6 +110,17 @@
     }
     .showcase form input:focus{
         outline:none;
+    }
+    .showcase:before,
+    .showcase:after{
+        content:"";
+        height: 100px;
+        bottom: -70px;
+        left:0;
+        right:0;
+        background-color: white;
+        position:absolute;
+        transform: skewY(4deg);
     }
     .container{
         max-width: 1100px;
