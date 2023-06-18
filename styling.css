@@ -74,6 +74,20 @@
         margin: 10px;
         padding: 20px;
     }
+    .btn{
+        display:inline-block;
+        padding: 10px 30px;
+        cursor: pointer;
+        background-color:rgb(99, 31, 31); 
+        color:white;
+        border:none;
+        border-radius: 10px;
+    }
+     .read{
+        background-color: rgb(99, 31, 31);
+        padding:5px 7px;
+        border:1px white solid;
+    }
     .showcase h2{
         font-size: 40px;
     }
